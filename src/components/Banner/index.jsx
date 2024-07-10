@@ -20,9 +20,9 @@ const TituloEstilizado = styled.h1`
   color: #FFFFFF;
   max-width: 300px;
   padding: 0 64px;
-`;
+`
 
-const Banner = ({ texto, backgroundImage}) =>{
+const Banner = ({texto, backgroundImage}) =>{
     return(
         <FigureEstilizada $backgroundImage={backgroundImage}>
             <TituloEstilizado>{texto}</TituloEstilizado>
